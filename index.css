@@ -16,6 +16,9 @@
   
   /* Facebook */
   .fa-linkedin {
-    background: #007bb5;
-    color: white;
+    color: #007bb5;
+  }
+
+  div a{
+    color: #007bb5;
   }
