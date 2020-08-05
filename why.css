@@ -11,4 +11,16 @@
 }
 div a{
     color: #007bb5;
-  } 
+}
+ 
+#original_signal{
+    display: block;margin-left: auto; margin-right: auto;
+}
+
+#time_sampled_signal{
+    display: block;margin-left: auto; margin-right: auto;
+}
+
+#quantised_signal_time{
+    display: block;margin-left: auto; margin-right: auto;
+}
