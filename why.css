@@ -1,9 +1,13 @@
 #reddot{
-    display: block;margin-left: auto; margin-right: auto;
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
 }
 
 #slinky{
-    display: block;margin-left: auto; margin-right: auto;
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
 }
 
 #wave{
@@ -12,15 +16,51 @@
 div a{
     color: #007bb5;
 }
- 
+
+.container{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-width: 2px;
+    border-style: dotted;
+    border-color: #007bb5;
+
+}
+
 #original_signal{
-    display: block;margin-left: auto; margin-right: auto;
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
 }
 
 #time_sampled_signal{
-    display: block;margin-left: auto; margin-right: auto;
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
 }
 
 #quantised_signal_time{
-    display: block;margin-left: auto; margin-right: auto;
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+p{
+    margin: 10px;
+    padding: 10px;
+    background-color:rgb(236, 234, 231); 
+}
+
+h4, h1{
+    margin: 10px;
+    padding: 10px;
+}
+
+figure{
+   
+    display: block;
+    border-left: 3px solid #007bb5;
+    padding-left: 10px;
+    margin-left: 10px;
 }
