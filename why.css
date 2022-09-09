@@ -17,17 +17,6 @@ div a{
     color: #007bb5;
 }
 
-.container{
-    margin-bottom: 50px;
-    margin-top: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-width: 2px;
-    border-style: dotted;
-    border-color: #007bb5;
-
-}
-
 #original_signal{
     display: block;
     margin-left: auto; 
@@ -63,3 +52,8 @@ figure{
     padding-left: 10px;
     margin-left: 10px;
 }
+
+.container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
