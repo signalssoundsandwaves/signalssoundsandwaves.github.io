@@ -27,3 +27,9 @@ div a {
   margin-top: 50px;
   margin-bottom: 50px;
 }
+img {
+  max-width: 100%; /* Ensures image doesn't exceed the container's width */
+  height: auto;    /* Maintains the image's aspect ratio */
+  /*display: block;  /* Removes the bottom space below images (optional) */
+  object-fit: cover; /* Optionally ensures the image fits within the container (for cropped images) */
+}
