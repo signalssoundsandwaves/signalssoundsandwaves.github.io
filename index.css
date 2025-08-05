@@ -33,3 +33,4 @@ img {
   /*display: block;  /* Removes the bottom space below images (optional) */
   object-fit: cover; /* Optionally ensures the image fits within the container (for cropped images) */
 }
+

@@ -69,32 +69,47 @@
                     <p>
                         The splatting part of the name relates to how a 3d asset is rendered to the screen.
                         <br>
-                        <br> 
-                        Ultimately this comes down to a visibility problem; what is our perspective on the 3d object and what parts of the 3d object are visible to us.
+                        <br>
+                        Ultimately this comes down to a perspective and a visibility problem; what is our perspective on the 3d object and what parts of the
+                        3d object are visible to us.
                         <br>
                         <br>
-                        Two algorythms that seek to solve the visibilty problem are 'Ray Tracing' and 'Rasterization'. 
+                        Two algorythms that seek to solve the perspective and visibilty problems are 'Ray Tracing' and 'Rasterization'.
+                        <br>
+                        <br>
+                        A simple explanation would be that rasterization is an old technique that has proven essential for the 3d computer graphics we take for granted today. 
+                        Raycasting is a newer technique that requires greater computation (GPUs). It aligns closely with how the human eye works and it does a very good job of rendering objects with complex lighting conditions and reflections.  
                         <br>
                         <br>
                         The following <a
-                        href="https://www.scratchapixel.com/lessons/3d-basic-rendering/rasterization-practical-implementation/overview-rasterization-algorithm.html">link</a> 
+                            href="https://www.scratchapixel.com/lessons/3d-basic-rendering/rasterization-practical-implementation/overview-rasterization-algorithm.html">link</a>
                         describes the two processes, pay particular attention to the pseudo code for each algorythm.
                         <br>
                         <br>
-                        Notice the outer and inner loops in the psuedo code; the outer loop in ray tracing iterates over all pixels in the image, the algorythm is descibed as 'image centric'. 
+                        Notice the outer and inner loops in the psuedo code; the outer loop in ray tracing iterates over all pixels in the
+                        image, the algorythm is descibed as 'image centric'.
                         The outer loop in rasterisation iterates over all triangles and is described as being 'object centric'.
                         <br>
                         <br>
-                        Rasterisation..  
-                        <figure>
+                        Rasterisation..
+                    </p>
+                    <p>
+                    <figure>
                         <blockquote
                             cite="https://www.scratchapixel.com/lessons/3d-basic-rendering/rasterization-practical-implementation/overview-rasterization-algorithm.html">
-                            "..starts with the geometry and works its way back to the image, as opposed to the ray tracing approach, which begins with the image and works its way into the scene."
+                            "..starts with the geometry and works its way back to the image, as opposed to the ray tracing approach, which
+                            begins with the image and works its way into the scene."
                         </blockquote>
-                        <figcaption>—Scratchapixel, <cite>https://www.scratchapixel.com/lessons/3d-basic-rendering/rasterization-practical-implementation/overview-rasterization-algorithm.html</cite>
+                        <figcaption>—Scratchapixel,
+                            <cite>https://www.scratchapixel.com/lessons/3d-basic-rendering/rasterization-practical-implementation/overview-rasterization-algorithm.html</cite>
                         </figcaption>
                     </figure>
-                    </p>  
+                    <br>
+                    <br>
+                                        
+                    </p>
+                    
+                    
 
         <div class="container footer">
             <p class="text-muted" style="text-align: center;">
