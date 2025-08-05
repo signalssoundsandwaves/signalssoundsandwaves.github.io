@@ -3,3 +3,10 @@ img{
     margin-left: auto; 
     margin-right: auto;
 }
+figure{
+   
+    display: block;
+    border-left: 3px solid #007bb5;
+    padding-left: 10px;
+    margin-left: 10px;
+}
